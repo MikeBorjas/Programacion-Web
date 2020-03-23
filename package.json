@@ -1,11 +1,27 @@
 {
-    "name":"prueba",
-    "version": "1.0.0",
-    "description": "Es una prua para obtener datos con el api",
-    "main": "app.js",
-    "scripts": {
-        "test": "echo  \"Error: fallo la prueba\" && exit 1"
-    },
-    "author": "Mike"
-    
+  "name": "rest-ap-prueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeBorjas/Programacion-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeBorjas/Programacion-Web/issues"
+  },
+  "homepage": "https://github.com/MikeBorjas/Programacion-Web#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
 }

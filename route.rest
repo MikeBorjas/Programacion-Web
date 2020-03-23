@@ -1,0 +1,28 @@
+GET http://localhost:3000/songs
+
+###
+
+GET http://localhost:3000/songs/5e7832bb43f0662e38cdc28c
+
+###
+
+POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+    "name":"Guns For Hands",
+    "artist":"Twenty One Pilots",
+    "album":"Vessel"
+}
+
+###
+
+DELETE  http://localhost:3000/songs/5e78330c43f0662e38cdc28d
+
+###
+PATCH   http://localhost:3000/songs/5e78392b0705751cc4f512e2
+Content-Type: application/json
+
+{
+    "name":"Migraine"
+}
