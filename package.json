@@ -1,14 +1,11 @@
 {
-    "name": "prueba",
+    "name":"prueba",
     "version": "1.0.0",
-    "dependencies": {
-        "mongoose": "5.9.4",
-        "express": "^4.7.1",
-        "method-override": "^2.1.2",
-        "body-parser": "^1.5.1"
-    },
+    "description": "Es una prua para obtener datos con el api",
     "main": "app.js",
     "scripts": {
         "test": "echo  \"Error: fallo la prueba\" && exit 1"
-    }
+    },
+    "author": "Mike"
+    
 }
